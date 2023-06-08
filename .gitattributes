@@ -1,0 +1,32 @@
+# Common settings that generally should always be used with your language specific settings
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+# Documents
+*.md text diff=markdown
+*.txt text
+
+# Graphics
+*.vpk binary
+*.wav binary
+*.svg text
+
+# Text files where line endings should be preserved
+*.patch -text
+
+# Text files with explicit line endings
+*.crlf text eol=crlf
+*.lf text eof=lf
+
+#
+# Exclude files from exporting
+#
+
+.gitattributes export-ignore
+.gitignore export-ignore
+.gitkeep export-ignore

@@ -16,6 +16,9 @@
 *.wav binary
 *.svg text
 
+# Binaries
+*.dat binary
+
 # Text files where line endings should be preserved
 *.patch -text
 
